@@ -1,0 +1,16 @@
+import re
+fail = open("csgo.txt", encoding="UTF-8")
+csgo = []
+for rida in fail:
+    print (str(rida))
+    csgo.append(rida)
+       
+fail.close()
+print ("Sõna 'Knife' esines: ")
+
+fail = open("csgo.txt", encoding="UTF-8")
+csgo = []
+for rida in fail:
+    if "Knife" in rida:
+        print(rida,end="")
+fail.close()
