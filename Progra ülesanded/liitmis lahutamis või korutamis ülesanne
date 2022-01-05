@@ -1,0 +1,29 @@
+tehe = input("Kas soovite lahutada, korrutada, jagada või liita: ")
+arv1 = int(input("sisestage esimene arv: "))
+arv2 = int(input("sisestage teine arv: "))
+summa2 = 0
+summa1 = 0
+summa3 = 0
+summa4 = 0
+def liida(summa1):
+    summa1 = arv1 + arv2
+    return(summa1)
+def lahutada(summa2):
+    summa2 = arv1 - arv2
+    return(summa2)
+def jagamine(summa3):
+    summa3 = arv1 / arv2
+    return (summa3)
+def korruta(summa4):
+    summa4 = arv1 * arv2
+    return(summa4)
+
+
+if tehe == "liita":
+    print (liida(summa1))
+elif tehe == "lahutada":
+    print (lahutada(summa2))
+elif tehe == "korrutada":
+    print (korruta(summa4))
+elif tehe == "jagada":
+    print (jagamine(summa3))
