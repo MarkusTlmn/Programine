@@ -1,0 +1,18 @@
+kalad = int(input("Sisesta kalade arv: "))
+loetelu = []
+i = 0
+a = 1
+b = 0
+summa = 0
+while i < kalad:
+    kaal = int(input(str(a) + ". kala kaal: "))
+    loetelu.append(kaal)
+    i = i + 1
+    a = a + 1
+
+while b < len(loetelu):
+    summa = summa + loetelu[b]
+    b = b + 1
+print("Keskmine kala kaalub " + str(round(summa/len(loetelu))) + " kg")
+print("Kõige raskem kala kaalub " + str(max(loetelu)) + " kg")
+print("Kõige kergem kala kaalub " + str(min(loetelu)) + " kg")    
