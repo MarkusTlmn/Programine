@@ -1,0 +1,23 @@
+from random import randint
+d = 0
+
+while True:
+    c = randint(1, 2)
+    a = randint(1, 10)
+    b = randint(1, 10)
+    if c == 1:
+        vastus = int(input("Arvuta " + str(a) + "*" + str(b) + "="))
+        if vastus == a*b:
+            print("Õige! Vastasid " + str(d) + " korda valesti!")
+            break
+        else:
+            print("Vale!")
+            d = d + 1
+    elif c == 2:
+        vastus = int(input("Arvuta " + str(a) + "+" + str(b) + "="))
+        if vastus == a+b:
+            print("Õige! Vastasid " + str(d) + " korda valesti!")
+            break
+        else:
+            print("Vale!")
+            d = d + 1
