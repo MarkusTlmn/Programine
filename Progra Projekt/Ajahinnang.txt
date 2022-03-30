@@ -1,0 +1,11 @@
+Ajahinanng tööle
+
+Vajalikke funktsioonide ja/või erinõuete kirja panemine ja kavandamine: 1 tundi
+Koodi kirjutamine: 4 tundi
+Dokumenteerimine: 0,5 tundi
+Testimine: 1 tundi
+Võimalikud veaparandused: 1 tund
+Paigaldus: 0,5 tundi
+
+Töö teostamise ajakulu on kokku 8 tundi. Hind 280 eurot + km.
+Töö oleks valmis kolmapäevaks 30. märts 2022. 
